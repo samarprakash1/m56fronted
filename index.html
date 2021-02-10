@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <h1 class="hra">Credit Card Payment Gateway</h1>
+    <div class="cont">
+        <div class="head">
+            <h1>Payment Details</h1>
+            <p id="error"></p>
+        </div>
+        <form id="form" action="">
+            <div class="linone">
+                <label for="cnum">CARD NUMBER</label>
+                <br>
+                <input type="number" name="cnum" id="cnum" placeholder="valid card number">
+            </div>
+            <div class="linetwo">
+                <div class="one">
+                    <label for="expdate">EXPIRATION DATE</label>
+                    <br>
+                    <input type="text" name ="expdate" id="expdate" placeholder="MM/YY">
+                </div>
+                <div class="two">
+                    <label for="cvcode">CV CODE</label>
+                    <br>
+                    <input type="number" name="cvcode" id="cvcode" placeholder="cvc">
+                </div>
+            </div>
+            <div class="three">
+                <label for="cown">CARD OWNER</label>
+                <br>
+                <input type="text" name="cown" id="cown" placeholder="card owner ">
+            </div>
+            <button id="btn" type="submit">Confirm Payment</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
