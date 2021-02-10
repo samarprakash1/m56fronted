@@ -1,0 +1,44 @@
+.hra{
+    text-align: center;
+    color: #333;
+    margin-top:  20px;
+    box-shadow: 4px 4px 25px gray;
+    padding: 10px 0;
+
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    margin-left: 520px;
+    color: rgb(18, 75, 75);
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+label{
+    color: rgb(27, 109, 61);
+    font-weight: 700;
+}
+#btn{
+    background: rgb(14, 68, 23);
+    padding: 10px 35px 10px 35px;
+    color: wheat;
+    border-radius: 10px;
+}
